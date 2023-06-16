@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page del Restaurante</title>
+  <link rel="stylesheet" href="stryle.css">
+  <script defer src="slider.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#reservas">Reservas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Restaurante Delicioso</h1>
+    <p>Bienvenidos a nuestro restaurante</p>
+  </header>
+
+  <main>
+    <div class="slider">
+      <div class="slide">
+        <img src="img/hamburguesa.jpg" alt="Imagen 1">
+      </div>
+      <div class="slide">
+        <img src="img/hamburguesa-doble.jpeg" alt="Imagen 2">
+      </div>
+      <div class="slide">
+        <img src="img/hamburguesas-papas-fritas.jpg" alt="Imagen 3">
+      </div>
+    </div>
+
+    <section id="inicio">
+      <h2>Bienvenidos a Restaurante Delicioso</h2>
+      <p>Disfruta de una experiencia culinaria única en nuestro restaurante. Ofrecemos platos exquisitos preparados con ingredientes frescos y de alta calidad.</p>
+    </section>
+
+    <section id="menu">
+      <h2>Nuestro Menú</h2>
+      <p>Echa un vistazo a nuestra variedad de platos que incluyen opciones para todos los gustos, desde entrantes hasta postres.</p>
+      <ul>
+        <li>Entrantes</li>
+        <li>Platos principales</li>
+        <li>Postres</li>
+      </ul>
+    </section>
+
+    <section id="reservas">
+        <h2>Haz tu Reserva</h2>
+        <p>Para asegurar tu lugar, puedes realizar una reserva en línea o llamarnos directamente. Estaremos encantados de atenderte.</p>
+        <form>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+          </div>
+          <div>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+          </div>
+          <div>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+          </div>
+          <div>
+            <label for="personas">Número de personas:</label>
+            <input type="number" id="personas" name="personas" required>
+          </div>
+          <div>
+            <label for="comentarios">Comentarios adicionales:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar reserva">
+          </div>
+        </form>
+      </section>
+      
+
+<!--
+    <section id="reservas">
+      <h2>Haz tu Reserva</h2>
+      <p>Para asegurar tu lugar, puedes realizar una reserva en línea o llamarnos directamente. Estaremos encantados de atenderte.</p>
+      <form>
+
+      </form>
+    </section>
+-->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos. Estamos aquí para ayudarte.</p>
+      <ul>
+        <li>Teléfono: 123-456-7890</li>
+        <li>Email: info@restaurantedelicioso.com</li>
+        <li>Dirección: Calle Principal, Ciudad</li>
+      </ul>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Derechos de autor &copy; 2023 Restaurante Delicioso</p>
+  </footer>
+  
+  <script src="slider.js"></script>
+</body>
+</html>
